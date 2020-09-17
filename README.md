@@ -15,8 +15,13 @@ $ npm install --save wpinstaller
 
 ## Usage
 ### globally
+Enter to your htdocs folder 
+```sh
+$ cd htdocs
+```
+Create and enter to your site directory
 
-Create your site directory and move to it
+**NOTE: A dir must be provided**
 ```sh
 $ mkdir my-wp-site && cd my-wp-site
 ```
@@ -48,6 +53,12 @@ Once you will run the `wpinstaller` command, a prompt configuration will be disp
 | Admin username | The username will be used for log in after the installation  | admin |
 | Admin password | The site admin password | 123456 |
 | Admin email | The site admin email address | admin@wp.com |
+
+After a successful installation you will be able to access your site at:
+~~~
+e.g http://localhost:8080/my-wp-site
+~~~
+
 
 ### locally
 
