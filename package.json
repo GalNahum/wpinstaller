@@ -1,0 +1,44 @@
+{
+  "name": "wpinstaller",
+  "description": "Install WordPress CMS on your local PHP dev environment",
+  "version": "1.0.0",
+  "license": "MIT",
+  "author": "Gal Nahum",
+  "main": "index.js",
+  "bin": {
+    "wpinstaller": "./bin/wpinstaller.js"
+  },
+  "preferGlobal": true,
+  "engines": {
+    "node": ">=13"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/GalNahum/wpinstaller"
+  },
+  "bugs": {
+    "url": "https://github.com/GalNahum/wpinstaller/issues"
+  },
+  "homepage": "https://github.com/GalNahum/wpinstaller#readme",
+  "keywords": [
+    "WordPress",
+    "WP",
+    "PHP",
+    "XAMPP",
+    "Wamp",
+    "MAMP",
+    "publish",
+    "cli"
+  ],
+  "dependencies": {
+    "axios": "^0.19.2",
+    "deepmerge": "^4.2.2",
+    "extract-zip": "^2.0.0",
+    "find-package-json": "^1.2.0",
+    "fs-extra": "^9.0.0",
+    "inquirer": "^7.1.0",
+    "mysql": "^2.18.1",
+    "puppeteer": "^2.1.1",
+    "url-join": "^4.0.1"
+  }
+}
