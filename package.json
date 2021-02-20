@@ -1,7 +1,7 @@
 {
   "name": "wpinstaller",
   "description": "Install WordPress CMS on your local PHP dev environment",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "license": "MIT",
   "author": "Gal Nahum",
   "main": "index.js",
